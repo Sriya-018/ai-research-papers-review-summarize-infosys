@@ -2,7 +2,6 @@
 
 This project automates the process of creating systematic reviews of academic papers through a structured AI workflow. It handles everything from paper search to final draft generation using a graph-based architecture.
 
-
 ## 🚀 Features
 
 - 🔍 Automatic research paper search (Semantic Scholar API)
@@ -35,4 +34,7 @@ This project automates the process of creating systematic reviews of academic pa
 ## 📦 Installation
 
 ### 1️⃣ Clone or download the repository
+### 2️⃣ Install required libraries
+    pip install gradio grandalf huggingface_hub langchain langgraph langsmith openai pydantic psycopg tiktoken pymupdf4llm pymupdf pdfminer.six numpy pandas
+
 
